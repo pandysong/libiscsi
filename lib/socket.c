@@ -140,7 +140,7 @@ iscsi_add_to_outqueue(struct iscsi_context *iscsi, struct iscsi_pdu *pdu)
 	pdu->next = NULL;
 }
 
-void iscsi_decrement_iface_rr() {
+void iscsi_decrement_iface_rr(void) {
 	iface_rr--;
 }
 
